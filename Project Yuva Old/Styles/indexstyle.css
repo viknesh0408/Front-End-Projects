@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(a1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family: aquire;
+}
+
+.navbar {
+  width: 95%;
+  height: auto;
+  margin-left: 30px;
+  
+}
+
+.logo h2{
+  color: rgb(45, 203, 252);
+  font-size: 40px;
+  font-family: aquire;
+  float: left;
+  padding-top: 0.6%;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  width: 600px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14%;
+}
+ul li {
+  list-style: none;
+  margin-left: 60px;
+  font-size: 16px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: aquire;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+ul li a:hover {
+  color: rgb(45, 203, 252);
+  text-shadow: 1px 1px 22px rgb(45, 203, 252);
+}
+
+.items-right{
+  display: flex;
+  justify-content: space-evenly;
+  float: right;
+  margin-top: 14px;
+  margin-right: 14px;
+}
+.search-box {
+  float: right;
+  width: 240px;
+  background: transparent;
+  border-style: solid;
+  border-color: rgb(45, 203, 252);
+  box-shadow: 1px 1px 22px rgb(45, 203, 252);
+  height: 25px;
+  padding: 8px;
+  border-radius: 15px;
+  margin-top: 1%;
+  margin-right: 18px;
+}
+.search-box .search-txt {
+  width: 190px;
+  padding: 0 6px;
+}
+
+.search-btn {
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(45, 203, 252);
+  text-shadow: 2px 2px 25px rgba(1, 170, 221, 0.5);
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 25px;
+  transition: 0.3s;
+}
+.search-btn:hover {
+  text-shadow: 0px 0px 5px aqua, 0px 0px 25px aqua, 0px 0px 50px aqua,
+    0px 0px 100px aqua;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  color: rgb(45, 203, 252);
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+  font-family: aquire;
+}
+
+.cart-btn {
+  text-decoration: none;
+  color: rgb(45, 203, 252);
+  text-shadow: 2px 2px 25px rgba(1, 170, 221, 0.8);
+  text-align: end;
+  float: right;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+  font-size: 30px;
+  margin-top: 14px;
+  margin-right: 10px;
+  position: relative;
+}
+
+
+.user-btn{
+  text-decoration: none;
+  color: rgb(45, 203, 252);
+  text-align: right;
+  justify-content: end;
+  display: flex;
+  float: right;
+  width: 28px;
+  height: 28px;
+  transition: 0.3s;
+  font-size: 30px;
+  margin-top: 14px;
+  margin-right: 5px;
+  margin-left: 10px;
+  
+  
+}
+.offer-txt{
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  display: flex;
+  position: absolute;
+  margin:150px 0px 0px 180px;
+  transition: text-shadow .2s;
+}
+.offer-txt:hover{
+  color: rgb(45, 203, 252);
+  text-shadow: 2px 2px 25px rgba(1, 170, 221, 0.8);
+}
+
+.adv1{
+  height: 230px;
+  width: 250px;
+  border-radius: 18px 18px 0px 0px;
+  border: solid 2px rgb(45, 203, 252);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin:200px 0px 0px 250px;
+  box-shadow: 0 5px 25px rgba(3, 181, 235, 0.7);
+  transition: box-shadow .2s;
+  background-color:rgba(0, 25, 39, 0.9);
+
+}
+.adv1:hover{
+  box-shadow: 0 5px 25px rgba(71, 212, 255, 0.918);
+}
+
+.adv1-img img{
+  text-align: center;
+  display: flex;
+  margin: 14px 0px 0px 40px;
+  height: 70%;
+  width: 70%;
+  transition:  0.2s ease-in;
+  
+}
+
+.adv1-text p{
+  width: 200px;
+  color: rgb(45, 203, 252);
+  display: flex;
+  float: left;
+  margin: 20px 0px 0px 60px;
+}
+
+
+.ofr-time{
+  position: sticky;
+  color: rgb(45, 203, 252);
+  width: 250px;
+  height: 30px;
+  text-align: left;
+  align-items: center;
+  letter-spacing: 1px;
+  border-radius: 0px 0px 18px 18px;
+  border: solid 2px rgb(45, 203, 252);
+  margin-top: 64px;
+  margin-left: -2px;
+  display: flex;
+  box-shadow: 0 5px 25px rgba(3, 181, 235, 0.7);
+  transition: box-shadow .2s;
+  background-color:rgba(0, 25, 39, 0.9);
+}
+.ofr-time p{
+  margin-left: 5px;
+}

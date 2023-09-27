@@ -1,0 +1,79 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bruno+Ace+SC&display=swap');
+
+
+
+*{
+    font-family: 'Alkatra', cursive;
+}
+body{
+    background: url("bg.png");
+}
+
+.login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
+    border: solid black;
+    box-shadow: 1px 1px 25px rgb(0, 0, 0);
+}
+
+.login-title{
+    text-align: center;
+}
+
+.user-input{
+    margin-left: 24px;
+    justify-content: center;
+}
+
+.user-input label{
+    margin-left: 12PX;
+    font-size: 1.1rem;
+}
+
+.user-input input{
+    outline: none;
+    border-style: none;
+    margin: 8px;
+    padding: 8px;
+    width: 300px;
+    font-size: 1rem;
+    background: transparent;
+    border-bottom: solid 2px;
+}
+
+.frgt-psw{
+    display: flex;
+    width: 350px;
+    justify-content: end;
+}
+
+
+
+.user-submit input{
+    width: 320px;
+    display: flex;
+    margin: auto;
+    padding: 8px;
+    border-radius: 14px;
+    border-style: none;
+    margin-top: 12px;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+    font-size: 1.3rem;
+    border-style: solid;
+    background: transparent;
+}
+
+
+.user-reg{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}

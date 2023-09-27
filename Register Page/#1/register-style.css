@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 1rem;
+}
+
+:root {
+    --blue: rgb(0, 136, 248);
+    --bluealpha: rgba(0, 136, 248,0.8);
+
+    --white: #ffffff;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.register-container{
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width: 450px;
+    transform: translate(-50%,-50%);
+    border-style: solid;
+    border-radius: 8px;
+    border-color: var(--blue);
+    transition: box-shadow .2s;
+}
+.register-container:hover{
+    box-shadow: 1px 1px 16px var(--bluealpha);
+}
+
+.register-title h2{
+    text-align: center;
+    text-shadow: 0px 0px 5px var(--bluealpha);
+    font-size: 1.4rem;
+}
+.register-title hr{
+    margin: 8px;
+}
+
+
+
+.user-name{
+    display: flex;
+    justify-content: center;
+}
+.user-name input{
+    display: flex;
+    width: 150px;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--blue);
+    background-color: transparent;
+    outline: none;
+    box-shadow: 1px 1px 2px rgba(3, 181, 235, 0.8);
+    justify-content: center;
+    margin-left: 25px;
+    caret-color: var(--blue);
+}
+
+.user-input{
+    display: flex;
+    justify-content: center;
+}
+.user-input input{
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 350px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--blue);
+    background-color: transparent;
+    outline: none;
+    box-shadow: 1px 1px 2px rgba(3, 181, 235, 0.8);
+    justify-content: center;
+    margin-left: 25px;
+    caret-color: var(--blue);
+}
+
+
+.user-submit{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+
+.login-btn a ,label{
+    font-size: .8rem;
+}
+
+.submit-btn input{ /* login button*/
+    padding: 8px;
+    margin-left: 25px;
+    border-radius: 6px;
+    background: transparent;
+    border-color: var(--blue);
+    outline: none;
+    border-style: solid;
+    transition: background-color .3s;
+    
+}
+.submit-btn input:hover{
+    background-color: var(--blue);
+    color: white;
+}
+
+
+
+.login-btn a{
+    text-decoration: none;
+    color: var(--blue);
+    align-items: end;
+}

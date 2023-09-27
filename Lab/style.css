@@ -1,0 +1,202 @@
+.detail-container{
+    background-color: rgb(240, 240, 240);
+    color: black;
+    height: 100px;
+}
+.lab-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lab-details p, i{
+    margin: 8px;
+}
+.lab-mail a{
+    text-decoration: none;
+}
+.lab-mail i{
+    color: rgb(0, 175, 206);
+    font-size: 1.5rem;
+    float: left;
+}
+.lab-ph-no p{
+    display: flex;
+}
+.lab-ph-no i{
+    color: rgb(0, 175, 206);
+    font-size: 1.5rem;
+    float: left;
+}
+.lab-location i{
+    color: rgb(0, 175, 206);
+    font-size: 1.5rem;
+    float: left;
+
+}
+
+.logo img{
+    height: 80px;
+    width: 80px;
+    margin-top: 8px;
+    margin-left: -130px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.register-btn a{
+    padding: 8px;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 94, 0);
+    margin-right: 50px;
+    border-radius: 3px;  
+    transition: box-shadow .2s ease;
+}
+.register-btn a:hover{
+    background-color:  rgb(255, 81, 0);
+    box-shadow: 2px 0px 10px rgb(255, 119, 40);
+}
+
+li a{
+   margin: 5px; 
+}
+li a:hover{
+    background-color:rgb(0, 175, 206);
+    border-radius: 5px;
+}
+
+
+
+.services-container{
+    align-items: center;
+    text-align: center;
+}
+.service-title p{
+    color: rgb(122, 122, 122);
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    word-wrap: break-word;
+}
+.service-title h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.service-title span{
+    color: rgb(0, 175, 206);
+}
+
+.service-title i{
+    font-size: 2rem;
+    color: rgb(0, 175, 206);
+    rotate: 90deg;
+}
+    
+.our-services{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.service-item{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    border-radius: 10px;
+    transition: background-color .2s ease;
+    padding: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    display: grid; 
+}
+
+
+.service-item i{
+    color: rgb(0, 175, 206);
+    font-size: 2.2rem;
+    float: left;
+}
+.service-item p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.service-item:hover{
+    background-color: rgb(67, 218, 245);
+    color: white;
+    transform: scale(1.05);   
+}
+.service-item:hover i{
+    color: white;
+}
+
+
+
+.about-container{
+    width: 70%;
+    margin-left: 100px;
+}
+
+.about-title h2{
+    padding-bottom: 10px;
+}
+
+.about-title span{
+    color: rgb(0, 175, 206);
+}
+
+.about-title h4{
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding-bottom: 10px;
+    display: inline-flex;
+
+}
+.about-descrip{
+    margin-bottom: 20px;
+    color: rgb(56, 56, 56);
+}
+
+
+.about-items{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 80px 80px;
+    gap: 10px 30px;
+}
+.item{
+    display: flex;
+    background-color: aqua;
+}
+.item h5{
+    justify-items: end;
+}
+.item:hover .item-icon{
+    background-color: rgb(255, 81, 0);
+}
+
+.item-icon{
+    background-color: rgb(0, 175, 206);
+    width: 80px;
+    height: 80px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: background-color .2s ease;
+    
+}
+.item-icon i{
+    font-size: 1.8rem;
+    color: white;
+}
+

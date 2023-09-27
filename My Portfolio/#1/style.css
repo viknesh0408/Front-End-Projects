@@ -1,0 +1,134 @@
+/* Add your custom CSS styles here */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f7f7f7;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+#hero {
+    background-image: linear-gradient(to right, #333, #666);
+    text-align: center;
+    padding: 120px 0;
+}
+
+#hero h1 {
+    font-size: 48px;
+    color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+#hero h2 {
+    font-size: 24px;
+    color: #f7f7f7;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #666;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}

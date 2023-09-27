@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+  
+body {
+    background-color: white;
+    font-family: arial;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    
+    
+}
+ 
+.title{
+    font-family: aquatico;
+    font-size: 20px;
+    margin: 250px 0px 0px 40px;
+}
+
+
+.register_box{
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-radius: 18px;
+    transition: box-shadow .3s;
+}
+.register_box h2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user_details{
+    padding: 40px;
+    border: none;
+}
+
+.user_input input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;  
+    padding: 11px;
+    margin-bottom: 8px;
+    outline: none;
+    background: transparent;
+    color: black;
+    font-size: 17px;
+    font-family: arial;
+}
+
+.register_btn button{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(255, 145, 0);
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.register_btn p{
+    text-align: center;
+}
+
+
+.user-choice{
+    display: flex;
+    justify-content: space-between;
+}
